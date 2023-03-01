@@ -97,7 +97,9 @@ section .conhecimento-profundo {
 
     position: absolute;
     right: 175px;
-    bottom: 100px;
+    top: -100px;
+
+    /* Dava para utilizar também o position relative com a mesma config top -100px que iria acontecer a mesma coisa */
 
     display: flex;
     flex-direction: column;
